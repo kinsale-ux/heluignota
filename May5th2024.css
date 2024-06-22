@@ -1,0 +1,26 @@
+body {
+    color: #bb986f;
+    font-family: 'Raleway', Arial, sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    background-color: #faf4f3;}
+h2 {
+font-size: 12px;
+}
+h3 {
+font-size: 11px;
+}
+
+.button {
+    width: 2.2%; 
+    filter: invert(60%) sepia(47%) saturate(287%) hue-rotate(352deg) brightness(94%) contrast(90%);
+}
+.button:hover {
+    filter: invert(34%) sepia(25%) saturate(994%) hue-rotate(354deg) brightness(91%) contrast(86%);
+}
+
+div.wrap {
+    width: 500px;
+    margin: 0 auto;
+}

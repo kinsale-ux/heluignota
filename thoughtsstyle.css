@@ -1,0 +1,57 @@
+@import "compass/css3";
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,800|Lora:400italic|Playfair+Display:700);
+@font-face {
+	font-weight: normal;
+	font-style: normal;
+	font-family: 'codropsicons';
+	src: url('../fonts/codropsicons/codropsicons.eot');
+	src: url('../fonts/codropsicons/codropsicons.eot?#iefix') format('embedded-opentype'), url('../fonts/codropsicons/codropsicons.woff') format('woff'), url('../fonts/codropsicons/codropsicons.ttf') format('truetype'), url('../fonts/codropsicons/codropsicons.svg#codropsicons') format('svg');
+}
+/* custom */
+body {
+	color: #727272;
+	font-family: 'Raleway', Arial, sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+	text-align: center;
+	background-color: #faf4f3;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 400;
+	color: #666;
+}
+h1, h2, h3 {
+	margin: 0 0 25px;
+	text-transform: uppercase;
+	letter-spacing: 15px;
+}
+
+.paralax {
+	background-size: cover;
+	background-image: url("4F4A0B60-BA33-4467-900E-5610D3C3E869.svg");
+	margin: 0 auto;
+	padding: 50px 0;
+	background-position: center center;
+	background-size: cover;
+}
+.main {
+	width: 100%;
+}
+.container {
+	width: 75%;
+	margin: 0px auto;
+}
+a {
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 15px;
+color: grey;
+}
+
+.menu a {
+    font-weight: bold;
+    color: #111;
+    transition: 0.4s;
+    padding: 10px;
+font-size: 13px;
+}

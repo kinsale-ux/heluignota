@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
+body {
+background: radial-gradient(circle,     #fff 0%,
+    #fbf6f5 4%,
+    #f7eeec 15%,
+    #f3e5e3 21%,
+    #eeddd9 28%,
+    #ead4d0 35%,
+    #e6ccc7 42%,
+    #e1c4be 48%,
+    #ddbcb5 57%,
+    #d8b3ac 63%,
+    #d4aba3 70%,
+    #c18d82 76%,
+    #b4776b 82%,
+    #a56255 87%,
+    #964c40 91%,
+    #87372b 95%,
+    #762018 98%,
+    #660000 100%
+);
+
+
+  background-size: cover;
+}
+
+
+h1 {
+  position: absolute;
+  top: 20%; /* Adjust as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 28px;
+  font-family: 'Manrope', sans-serif;
+  background-color: #c18d82;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+text-shadow: #c18d82 1px 0 2px;
+}
+
+h2 {
+  position: absolute;
+  bottom: 10%; /* Adjust as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 18px;
+  font-family: 'Manrope', sans-serif;
+  background-color: #c18d82;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  text-shadow: #c18d82 1px 0 2px;
+}
+
+
+
+ .container {
+	 width: 75%;
+	 margin: 0px auto;
+}
+a {
+	 text-decoration: none;
+	 text-transform: uppercase;
+	 letter-spacing: 15px;
+}
+.menu a {
+    font-weight: bold;
+    color: #fff;
+    transition: 0.4s;
+    padding: 10px;
+  	font-size: 15px;
+}
+
+a:hover {
+  background-color: #c18d82;
+
+}

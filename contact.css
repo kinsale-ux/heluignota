@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playwrite+CA:wght@100..400&family=Rubik+Bubbles&display=swap');
+h1 {
+  font-family: "Rubik Bubbles", system-ui;
+  text-transform: uppercase;
+  font-size: 20.15px;
+  text-align: left;
+  height: 100vh;
+  display: flex;
+  align-items: left;
+  position: absolute;
+  justify-content: left;
+  opacity: 0.3;
+  color: #dbc5cf;
+}
+body {
+  background: linear-gradient(to right, #430000, #b38e62);
+}
+
+nav {
+  position: fixed;
+  top: 600px;
+}
+.menu a {
+  margin: 0 75px;
+  color: #ead4d0;
+  font-size: 23px;
+  font-weight: bold;
+  font-family: "Sintony", sans-serif;
+  transition: 0.4s;
+  padding-left: 125px;
+  position: relative;
+  top: 3px;
+  text-decoration: overline;
+}
+
+.socials {
+  color: #c18d82;
+  text-decoration: none;
+  padding-left: 175px;
+}
+
+.socials,
+.socials ul {
+  margin: 0px;
+}
+
+.socials:hover {
+  color: #c18d82;
+  text-shadow: 10px 10px 100px #fff, 10px -10px 100px #fff,
+    -10px 10px 100px #fff, -10px -10px 100px #fff;
+  -webkit-text-shadow: 10px 10px 100px #fff, 10px -10px 100px #fff,
+    -10px 10px 100px #fff, -10px -10px 100px #fff;
+  -moz-text-shadow: 10px 10px 100px #fff, 10px -10px 100px #fff,
+    -10px 10px 100px #fff, -10px -10px 100px #fff;
+  -o-text-shadow: 10px 10px 100px #fff, 10px -10px 100px #fff,
+    -10px 10px 100px #fff, -10px -10px 100px #fff;
+  transition: all ease 0.5s;
+  -moz-transition: all ease-in 0.5s;
+  -webkit-transition: all ease-in 0.5s;
+  -o-transition: all ease-in 0.5s;
+}
+
+.fa-xl {
+  font-size: 3em !important;
+}

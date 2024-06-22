@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300&family=Nabla&family=Playfair+Display:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap");
+
+html {
+font-family: "Inter", sans-serif;
+}
+@supports (font-variation-settings: normal) {
+html {
+    font-family: "Inter var", sans-serif;
+}
+}
+
+body {
+margin: 0;
+background: linear-gradient(
+    #fff 0%,
+    #fbf6f5 4%,
+    #f7eeec 15%,
+    #f3e5e3 21%,
+    #eeddd9 28%,
+    #ead4d0 35%,
+    #e6ccc7 42%,
+    #e1c4be 48%,
+    #ddbcb5 57%,
+    #d8b3ac 63%,
+    #d4aba3 70%,
+    #c18d82 76%,
+    #b4776b 82%,
+    #a56255 87%,
+    #964c40 91%,
+    #87372b 95%,
+    #762018 98%,
+    #660000 100%
+);
+color: #fff;
+font-weight: 900;
+font-size: 13vw;
+}
+
+section {
+width: 100vw;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+animation: floating 4s cubic-bezier(0.37, 0, 0.63, 1) infinite;
+}
+
+.tilt {
+display: flex;
+justify-content: center;
+align-items: center;
+animation: tilting 10s cubic-bezier(0.37, 0, 0.63, 1) infinite;
+}
+
+section span {
+transition: font-weight 0.4s ease-in;
+animation: floating-secondary 2.5s cubic-bezier(0.37, 0, 0.63, 1) infinite;
+}
+
+section span:nth-child(1) {
+animation-delay: 1s;
+}
+section span:nth-child(2) {
+animation-delay: 2s;
+}
+section span:nth-child(3) {
+animation-delay: 3s;
+}
+section span:nth-child(4) {
+animation-delay: 4s;
+}
+section span:nth-child(5) {
+animation-delay: 5s;
+}
+section span:nth-child(6) {
+animation-delay: 6s;
+}
+section span:nth-child(7) {
+animation-delay: 7s;
+}
+
+@keyframes floating {
+0% {
+    transform: translate(0, 0);
+}
+50% {
+    transform: translate(0, 5vh);
+}
+100% {
+    transform: translate(0, 0);
+}
+}
+
+@keyframes floating-secondary {
+0% {
+    transform: translate(0, 0);
+}
+50% {
+    transform: translate(0, 1vh);
+}
+100% {
+    transform: translate(0, 0);
+}
+}
+
+@keyframes tilting {
+0% {
+    transform: rotate(2deg);
+}
+50% {
+    transform: rotate(-2deg);
+}
+100% {
+    transform: rotate(2deg);
+}
+}
+
+/*
+.tilt2 {
+margin: 0;
+color: #FFAD21;
+font-weight: 10;
+font-size: 1.7vw;
+overflow: hidden;
+margin-top: 40px;
+}
+*/
+
+.tilt3 {
+margin: -85px;
+color: #faf4f3;
+font-weight: 10;
+font-size: 1.5vw;
+overflow: hidden;
+}
+
+.tilt:hover {
+color: #faf4f3;
+}
+
+/*
+.tilt2:hover {
+color: #FFAD21;
+}
+*/
+
+.tilt3:hover {
+color: #faf4f3;
+}
+
+.lp__navbar__nav {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 10px;
+    z-index: 2;
+}
+
+.lp__navbar__link {
+font-size: 13px;
+margin: 0 10px;
+margin-top: 565px;
+font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+a {
+    color: #fff;
+}
+a:hover {
+    color: #fff;
+}
